@@ -4,6 +4,6 @@ setup:
       as: db
 build:
   docker:
-    web: Dockerfile
+    worker: Dockerfile
 run:
-    web: bash start.sh
+    worker: bash start.sh
